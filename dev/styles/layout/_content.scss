@@ -1,0 +1,33 @@
+@import 'base';
+
+#content {
+    width: 300px;
+    margin: 0 auto;
+	padding: 80px 0;
+    color: #fff;
+
+    h1 {
+        font-family: 'Century Gothic',sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin: 0 0 10px;
+        padding-left: 104px;
+    }
+
+    p {
+        padding-left: 104px;
+        font-size: 12px;
+        color: #ccc;
+    }
+
+
+
+    .avatar {
+        float: left;
+        border: 2px solid $gold;
+        margin: 0 20px 20px 0;
+        @include border-radius(10px);
+    }
+
+}
