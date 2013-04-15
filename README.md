@@ -1,8 +1,6 @@
-# Very basic starter site...
+# nathancrenshaw.com
 
 **[Nathan Crenshaw](mailto:crenshan@gmail.com)**
-
-This is a very basic starter site meant for rapid protoyping using [Grunt](http://gruntjs.com/) and [Compass](http://compass-style.org/).
 
 -------------------------------
 
