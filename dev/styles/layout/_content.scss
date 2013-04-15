@@ -1,10 +1,12 @@
 @import 'base';
+@import "social/*.png";
 
 #content {
     width: 300px;
     margin: 0 auto;
 	padding: 80px 0;
     color: #fff;
+    @include all-social-sprites;
 
     h1 {
         font-family: 'Century Gothic',sans-serif;
@@ -21,13 +23,28 @@
         color: #ccc;
     }
 
-
-
     .avatar {
         float: left;
+        overflow: hidden;
         border: 2px solid $gold;
         margin: 0 20px 20px 0;
         @include border-radius(10px);
+        img { display: block; }
+    }
+
+    .social {
+        padding-left: 104px;
+
+        a {
+            display: inline-block;
+            padding-top: 20px;
+            height: 0;
+            width: 20px;
+            background-color: #fff;
+            margin-right: 10px;
+            @include border-radius(10px);
+            &:hover { background-color: $gold; }
+        }
     }
 
 }
